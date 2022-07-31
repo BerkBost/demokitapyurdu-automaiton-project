@@ -19,7 +19,7 @@ public class ProductsPage extends BasePage{
     }
 
     public void selectProduct() throws InterruptedException {
-        getAllProducts().get(randomNumberGenerator()).click();
+        getAllProducts().get(1).click();
     }
 
     private List<WebElement> getAllProducts(){
